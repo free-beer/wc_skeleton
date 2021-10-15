@@ -1,0 +1,30 @@
+{
+  "name": "wc_skeleton",
+  "version": "0.1.0",
+  "description": "An example project structure for a web component project.",
+  "main": "build/js/main.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "reload": "livereload 'build/'",
+    "watch": "npm-run-all --parallel reload dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/free-beer/wc_skeleton.git"
+  },
+  "author": "Peter Wood <pw0470@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/free-beer/wc_skeleton/issues"
+  },
+  "homepage": "https://github.com/free-beer/wc_skeleton#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.58.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "terser": "^5.9.0"
+  },
+  "dependencies": {}
+}
